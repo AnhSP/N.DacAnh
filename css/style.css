@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: darkgrey;
+}
+header{
+    height: 20vh;
+    background-color: white;
+}
+ul{
+    background-color: gainsboro;
+    text-align: start;
+    height: 5vh;
+    padding-top: 20px;
+}
+li{
+    margin-left: 40px;
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.hotnews{
+    height: 52vh;
+}
+.imgnews{
+    float: left;
+    text-align: right;
+    height: 50vh;
+    width: 45%;
+}
+.textnews{
+    float: left;
+    margin-left: 3%;
+    height: 50vh;
+    width: 45%;
+}
+.title{
+    background-color: yellow;
+}
+.content{
+    color: white;
+    margin-bottom: 1%;
+}
+.frmcomment{
+    color: white;
+}
+.news{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.col-3{
+    width: 20%;
+    margin-left: 4%;
+    margin-bottom: 5px;
+    float: left;
+    text-align: center;
+}
