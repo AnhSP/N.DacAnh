@@ -45,14 +45,13 @@
 					<div class="frmcomment">
 					<form action="">
 		              <label for="email">Email</label> <br>
-		              <input type="text" name="email" id="email"> <br>
+		              <input type="text" name="email" id="email" onchange="checkEmail();"> <br>
 		              <label for="com">Comment</label> <br>
 		              <textarea name="com" id="com" cols="30" rows="5"></textarea> <br>
 		              <label for="rate">Rating</label>
-		              <input type="text" name="rate" id="rate" size="5"> <br>
-		              <input type="submit" value="send" name="submit" id="submit">
-		            </form>	
-
+		              <input type="text" name="rate" id="rate" size="5" onchange="checkRating();"> <br>
+		              <input type="submit" value="send" name="submit" id="submit" onclick=" checkNULL(); ">
+		            </form>
 				</div>
 				</div>
 			</div>
@@ -104,7 +103,7 @@
 			</div>
 		</section>
 	</div>
-	
+	<script src="js/script.js"></script>
 </body>
 </html>
 
